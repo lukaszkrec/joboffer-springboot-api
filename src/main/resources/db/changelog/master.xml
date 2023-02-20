@@ -4,7 +4,7 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
         https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.2.xsd">
-    <changeSet id="0001" author="javastart">
+    <changeSet id="0001" author="lukasz">
         <createTable tableName="company">
             <column name="id" type="BIGINT" autoIncrement="true">
                 <constraints nullable="false" primaryKey="true"/>
@@ -17,7 +17,7 @@
             <column name="email" type="VARCHAR(200)"/>
         </createTable>
     </changeSet>
-    <changeSet id="0002" author="javastart">
+    <changeSet id="0002" author="lukasz">
         <createTable tableName="job_offer">
             <column name="id" type="BIGINT" autoIncrement="true">
                 <constraints nullable="false" primaryKey="true"/>
